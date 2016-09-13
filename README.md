@@ -5,5 +5,5 @@ Thymeflow is a Personal Information Management System, a system that loads your 
 
 # License/Copyright
 
-License: AGPL v3, as described in LICENSE.txt.
-Copyright is described in a COPYRIGHT.txt file in each project.
+ - License: AGPL v3, as described in LICENSE.txt.
+ - Copyright is described in a COPYRIGHT.txt file in each project.
