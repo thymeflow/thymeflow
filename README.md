@@ -4,9 +4,14 @@ Thymeflow is a Personal Information Management System, a system that loads your 
 
 # Overview
 
+This repository is a container for three submodules that contain the actual code:
+
   - `thymeflow-back` is the backend implementation in [Scala](http://www.scala-lang.org/).
   - `thymeflow-front` is a Web application in [Ember.JS](http://emberjs.com/).
   - `thymeflow-deploy` is a collection of [Ansible](https://www.ansible.com/) scripts for installing a production or development version of Thymeflow in a local or remote machine.
+
+To retrieve all submodules, make sure to use the `--recursive` option
+of ̀ git clone`.
 
 # License/Copyright
 
