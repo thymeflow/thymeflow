@@ -11,7 +11,7 @@ This repository is a container for three submodules that contain the actual code
   - `thymeflow-deploy` is a collection of [Ansible](https://www.ansible.com/) scripts for installing a production or development version of Thymeflow in a local or remote machine.
 
 To retrieve all submodules, make sure to use the `--recursive` option
-of ̀ git clone`.
+of ̀`git clone`.
 
 # License/Copyright
 
