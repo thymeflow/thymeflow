@@ -1,9 +1,0 @@
-[submodule "thymeflow-front"]
-	path = thymeflow-front
-	url = https://github.com/thymeflow/thymeflow-front
-[submodule "thymeflow-back"]
-	path = thymeflow-back
-	url = https://github.com/thymeflow/thymeflow-back
-[submodule "thymeflow-deploy"]
-	path = thymeflow-deploy
-	url = https://github.com/thymeflow/thymeflow-deploy
