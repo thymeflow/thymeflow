@@ -1,0 +1,19 @@
+version: '3'
+services:
+  back:
+    image: 'thymeflow/back'
+    volumes:
+      - ./conf:/app/conf
+      - logs:/app/logs
+      - data:/app/data
+    command: sbt -Dconfig.file=/app/conf/application.conf thymeflow/run
+    ports:
+      - "8080:8080"
+  front:
+    image: 'thymeflow/front'
+    ports:
+      - "4200:4200"
+      - "49153:49153"
+volumes:
+  data:
+  logs:
