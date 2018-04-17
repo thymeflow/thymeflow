@@ -35,6 +35,8 @@ The suggested installation is based on a Docker Compose file. To get started, fo
  Refer to the [configuration](#configuration) section for more details.
  - Run `docker-compose up`.
  - Open your browser at `http://localhost:4200`.
+ 
+To keep up-to-date with the latest version, run `docker-compose pull` then issue a `docker-compose restart`.
 
 ## Configuration
 
